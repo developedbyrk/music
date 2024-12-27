@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  font-size: 14px;
+  padding: 8px;
+}
+
+.music-player-wrapper {
+  width: min(550px, 100%);
+  margin-inline: auto;
+  padding: 16px;
+  box-shadow: 0 0 5px #ddd;
+}
+
+.logo {
+  max-width: 150px;
+  margin-inline: auto;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.search {
+  font-family: Ubuntu, sans-serif;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 4px;
+  margin-bottom: 12px;
+}
+
+#currentPlaylist {
+  margin-bottom: 4px;
+}
+
+#currentSongTitle {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+#playbackControls {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: Ubuntu, sans-serif;
+  padding: 8px;
+  margin-block: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  background: deepskyblue;
+  border: none;
+  box-shadow: 0 5px 5px -4px #333;
+  color: #fff;
+  border-radius: 4px;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.player-wrapper {
+  min-height: 60px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: "--- Select a song to play ---";
+    font-size: 22px;
+    color: #ddd;
+    width: 100%;
+    text-align: center;
+    padding-top: 14px;
+    z-index: 0;
+  }
+}
+
+.playlist-accordion {
+  margin: 10px 0;
+}
+
+.accordion-header {
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+}
+
+.accordion-content {
+  display: flex; /* All playlists open by default */
+  padding-block: 10px;
+  gap: 8px;
+  overflow-x: auto;
+}
+
+.track-item {
+  padding: 5px;
+  cursor: pointer;
+  background-color: #ddd;
+  border-radius: 8px;
+  flex-basis: min(104px, calc(33% - 5px));
+  flex-shrink: 0;
+  box-shadow: 0 5px 5px -4px #333;
+  min-height: 70px;
+}
+
+.track-item:hover {
+  background-color: #f0f0f0;
+}
+
+#audioPlayer,
+#videoPlayer {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
