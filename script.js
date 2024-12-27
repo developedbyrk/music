@@ -44,16 +44,8 @@ const playlists = [
     name: "Bhajans (2) MP3",
     tracks: [
       {
-        title: "Shambho Shankar Namah Shivay",
-        url: "./bhajan/mp3/ShivStuti-ShambhoShankarNamahShivay.mp3",
-      },
-      {
         title: "Shri Hanuman Chalisa",
         url: "./bhajan/mp3/ShriHanumanChalisa.mp3",
-      },
-      {
-        title: "Sundar Kand",
-        url: "./bhajan/mp3/SundarKand.mp3",
       },
       {
         title: "Kisori Kuch Aisa Intjam Ho Jaye",
