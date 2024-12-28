@@ -52,7 +52,7 @@ const playlists = [
         url: "./bhajan/mp3/KISHORIKUCHAISAINTJAMHOJAYE.mp3",
       },
       {
-        title: "Pakad Lo Hath Banvari Nahin To Doob Jaenge",
+        title: "Pakad Lo Hath Banvari Nahin To",
         url: "./bhajan/mp3/PakadLoHathBanvariNahinToDoobJaenge.mp3",
       },
       {
