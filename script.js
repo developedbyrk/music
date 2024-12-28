@@ -55,6 +55,10 @@ const playlists = [
         title: "Pakad Lo Hath Banvari Nahin To Doob Jaenge",
         url: "./bhajan/mp3/PakadLoHathBanvariNahinToDoobJaenge.mp3",
       },
+      {
+        title: "Vishnu Sahasranamam",
+        url: "./bhajan/mp3/VishnuSahasranamam.mp3",
+      },
     ],
   },
   {
