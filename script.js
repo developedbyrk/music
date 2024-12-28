@@ -146,14 +146,22 @@ autoplayToggle.addEventListener("click", () => {
 
 // Handle autoplay after track ends
 function handleAutoplay() {
-  const currentPlaylist = playlists[currentPlaylistIndex];
-  if (isAutoplay) {
+  // const currentPlaylist = playlists[currentPlaylistIndex];
+  // if (isAutoplay) {
+  //   currentTrackIndex++;
+  //   if (currentTrackIndex >= currentPlaylist.tracks.length) {
+  //     currentTrackIndex = 0; // Loop back to the first track
+  //   }
+  //   playMedia();
+  // }
+
+    const currentPlaylist = playlists[currentPlaylistIndex];
     currentTrackIndex++;
     if (currentTrackIndex >= currentPlaylist.tracks.length) {
-      currentTrackIndex = 0; // Loop back to the first track
+      currentTrackIndex = currentPlaylist.tracks.length - 1; // Stay on the last track
+      return; // Stop autoplay
     }
     playMedia();
-  }
 }
 
 // Add event listeners for track end (to trigger autoplay)
