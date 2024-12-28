@@ -207,8 +207,12 @@ function renderPlaylists(searchQuery = "") {
 
 // Initialize the player
 function initializePlayer() {
-  renderPlaylists();
-  updateCurrentSongTitle();
+  // renderPlaylists();
+  // updateCurrentSongTitle();
+  currentPlaylistIndex = 0; // Set the first playlist
+  currentTrackIndex = 0; // Set the first track in the playlist
+  playMedia(); // Play the first track and make the player visible
+  renderPlaylists(); // Render the playlists
 }
 
 // Search functionality

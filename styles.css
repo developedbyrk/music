@@ -29,15 +29,15 @@ body {
 .search {
   font-family: Ubuntu, sans-serif;
   width: 100%;
-  border: 1px solid #4A2B16;
+  background: linear-gradient(45deg, #4A2B16, #A16742);
+  border-width: 0;
   padding: 4px;
   margin-bottom: 12px;
-  background-color: #A16742;
   color: #fff;
 }
 
 ::placeholder {
-  color: #fff;
+  color: #A16742;
 }
 
 #currentPlaylist {
@@ -73,7 +73,7 @@ button {
 }
 
 #autoplayToggle {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .hidden {
