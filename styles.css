@@ -12,6 +12,7 @@ body {
 
 .music-player-wrapper {
   width: min(550px, 100%);
+  min-height: 100svh;
   margin-inline: auto;
   padding: 8px 12px;
   background: linear-gradient(0deg, #4a2b16, #a16742);
