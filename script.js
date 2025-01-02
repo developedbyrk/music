@@ -1,6 +1,6 @@
 const playlists = [
   {
-    name: "Bhajans (1) MP3",
+    name: "Bhajans",
     tracks: [
       {
         title: "Racha Hai Srishti Ko Jis Prabhu Ne",
@@ -14,6 +14,27 @@ const playlists = [
         title: "Mujhe Tumne Malik Bahut Diya Hai",
         url: "./bhajan/mp3/MujheTumneMalikBahutDeDiyahai.mp3",
       },
+      {
+        title: "Vishnu Sahasranamam",
+        url: "./bhajan/mp3/VishnuSahasranamam.mp3",
+      },
+      {
+        title: "Kisori Kuch Aisa Intjam Ho Jaye",
+        url: "./bhajan/mp3/KISHORIKUCHAISAINTJAMHOJAYE.mp3",
+      },
+      {
+        title: "Pakad Lo Hath Banvari Nahin To",
+        url: "./bhajan/mp3/PakadLoHathBanvariNahinToDoobJaenge.mp3",
+      },
+      {
+        title: "Nar Sharir Anmol Hai Prani",
+        url: "./bhajan/mp3/NarSharirAnmolHaiPrani.mp3",
+      },
+    ],
+  },
+  {
+    name: "Shiv Bhajans & Hanuman Chalisa",
+    tracks: [
       {
         title: "Karpur Gauram Karunavtaram",
         url: "./bhajan/mp3/KarpurGauramKarunavtaram.mp3",
@@ -38,26 +59,21 @@ const playlists = [
         title: "Lingaashtakam",
         url: "./bhajan/mp3/Lingaashtakam.mp3",
       },
-    ],
-  },
-  {
-    name: "Bhajans (2) MP3",
-    tracks: [
+      {
+        title: "Shiv Dhun Om Namah Shivay",
+        url: "./bhajan/mp3/ShivDhunOmNamahShivay.mp3",
+      },
+      {
+        title: "Jagat Chatna Hu Anadi Ananta",
+        url: "./bhajan/mp3/JagatChatnaHuAnadiAnanta.mp3",
+      },
+      {
+        title: "Mahamrityunjay Mantra",
+        url: "./bhajan/mp3/MahamrityunjayMantra.mp3",
+      },
       {
         title: "Shri Hanuman Chalisa",
         url: "./bhajan/mp3/ShriHanumanChalisa.mp3",
-      },
-      {
-        title: "Kisori Kuch Aisa Intjam Ho Jaye",
-        url: "./bhajan/mp3/KISHORIKUCHAISAINTJAMHOJAYE.mp3",
-      },
-      {
-        title: "Pakad Lo Hath Banvari Nahin To",
-        url: "./bhajan/mp3/PakadLoHathBanvariNahinToDoobJaenge.mp3",
-      },
-      {
-        title: "Vishnu Sahasranamam",
-        url: "./bhajan/mp3/VishnuSahasranamam.mp3",
       },
     ],
   },
@@ -84,6 +100,11 @@ const nextBtn = document.getElementById("nextBtn");
 const currentSongTitle = document.getElementById("currentSongTitle");
 const currentPlaylistTitle = document.getElementById("currentPlaylist");
 const searchInput = document.getElementById("searchInput");
+// Playlist toggle button and icons
+const toggleAllBtn = document.getElementById("toggleAllBtn");
+const onIcon = document.getElementById("on");
+const offIcon = document.getElementById("off");
+// Get the button to close all accordions
 const playlistsContainer = document.getElementById("playlistsContainer");
 
 // Update the current song title
@@ -212,6 +233,25 @@ function renderPlaylists(searchQuery = "") {
     playlistsContainer.appendChild(playlistElement);
   });
 }
+
+// Add event listener for the "Toggle All" button
+toggleAllBtn.addEventListener("click", () => {
+  // Get all the accordion contents
+  const accordionContents = document.querySelectorAll(".accordion-content");
+  // Check if all are open (i.e., if one is closed)
+  const allOpen = Array.from(accordionContents).every(
+    (content) => content.style.display === "flex"
+  );
+
+  // Toggle the display of all accordions based on the current state
+  accordionContents.forEach((content) => {
+    content.style.display = allOpen ? "none" : "flex";
+  });
+
+  // Toggle the icons
+  onIcon.style.display = allOpen ? "none" : "inline";
+  offIcon.style.display = allOpen ? "inline" : "none";
+});
 
 // Initialize the player
 function initializePlayer() {
