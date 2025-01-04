@@ -30,6 +30,10 @@ const playlists = [
         title: "Nar Sharir Anmol Hai Prani",
         url: "./bhajan/mp3/NarSharirAnmolHaiPrani.mp3",
       },
+      {
+        title: "Saare Thirath Dhaam Aapke",
+        url: "./bhajan/mp3/Saare-Thirath-Dhaam-Aapke.mp3",
+      },
     ],
   },
   {
@@ -71,6 +75,22 @@ const playlists = [
         title: "Mahamrityunjay Mantra",
         url: "./bhajan/mp3/MahamrityunjayMantra.mp3",
       },
+      {
+        title: "Aisi Subah Na Aaye",
+        url: "./bhajan/shiv/Aisi-Subah-Na-Aaye.mp3",
+      },
+      {
+        title: "Mahadev Shankar Hai Jag Se Nirale",
+        url: "./bhajan/shiv/Mahadev-Shankar-Hai-Jag-Se-Nirale.mp3",
+      },
+      {
+        title: "Prabhu Mere Man Ko",
+        url: "./bhajan/shiv/Prabhu_Mere_Man_Ko.mp3",
+      },
+      {
+        title: "Tera Pal Pal Beeta Jaye",
+        url: "./bhajan/shiv/TERA-PAL-PAL-BEETA-JAYE.mp3",
+      },
     ],
   },
   {
@@ -86,8 +106,16 @@ const playlists = [
     name: "Shri Ram & Hanuman Ji",
     tracks: [
       {
+        title: "Ram Amritwani",
+        url: "./bhajan/ram-hanuman/Ram_Amritwani_By_Anuradha_Paudwal.mp3",
+      },
+      {
+        title: "Mangal Bhavan Amangal Hari",
+        url: "./bhajan/ram-hanuman/Mangal_Bhavan_Amangal_Hari.mp3",
+      },
+      {
         title: "Shri Hanuman Chalisa",
-        url: "./bhajan/mp3/ShriHanumanChalisa.mp3",
+        url: "./bhajan/ram-hanuman/Shri-Hanuman-Chalisa.mp3",
       },
     ],
   },
@@ -121,6 +149,10 @@ const playlists = [
       {
         title: "Ye To Prem Ki Bat Hia Udho",
         url: "./bhajan/radhe-krishna/Ye-To-Prem-Ki-Bat-Hin-Udho.mp3",
+      },
+      {
+        title: "Krishna Govind Gopal Madhav Hare",
+        url: "./bhajan/radhe-krishna/Krishna_govind_gopal_madhav_hare.mp3",
       },
     ],
   },
