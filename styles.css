@@ -16,6 +16,7 @@ body {
 
 .music-player-wrapper {
   width: min(550px, 100%);
+  min-height: 100vh;
   min-height: 100dvh;
   margin-inline: auto;
   padding: 8px 12px;
@@ -47,6 +48,7 @@ body {
 
 div#playlistsContainer {
   height: calc(100vh - 315px);
+  height: calc(100dvh - 315px);
   overflow-y: auto;
 }
 
