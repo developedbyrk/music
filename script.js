@@ -19,14 +19,6 @@ const playlists = [
         url: "./bhajan/mp3/VishnuSahasranamam.mp3",
       },
       {
-        title: "Kisori Kuch Aisa Intjam Ho Jaye",
-        url: "./bhajan/mp3/KISHORIKUCHAISAINTJAMHOJAYE.mp3",
-      },
-      {
-        title: "Pakad Lo Hath Banvari Nahin To",
-        url: "./bhajan/mp3/PakadLoHathBanvariNahinToDoobJaenge.mp3",
-      },
-      {
         title: "Nar Sharir Anmol Hai Prani",
         url: "./bhajan/mp3/NarSharirAnmolHaiPrani.mp3",
       },
@@ -41,39 +33,39 @@ const playlists = [
     tracks: [
       {
         title: "Karpur Gauram Karunavtaram",
-        url: "./bhajan/mp3/KarpurGauramKarunavtaram.mp3",
+        url: "./bhajan/shiv/KarpurGauramKarunavtaram.mp3",
       },
       {
         title: "Bhole Girijapati Hu Tamhari Sharan",
-        url: "./bhajan/mp3/BholeGirijapatihuTamhariSharan.mp3",
+        url: "./bhajan/shiv/BholeGirijapatihuTamhariSharan.mp3",
       },
       {
         title: "Hey Shiv Pita Parmatma",
-        url: "./bhajan/mp3/HeyShivPitaParmatma.mp3",
+        url: "./bhajan/shiv/HeyShivPitaParmatma.mp3",
       },
       {
         title: "Ram Rachit Shambu Stuti",
-        url: "./bhajan/mp3/RamRachitShambuStuti.mp3",
+        url: "./bhajan/shiv/RamRachitShambuStuti.mp3",
       },
       {
         title: "Satyam Shivam Sundaram",
-        url: "./bhajan/mp3/SatyamShivamSundaram.mp3",
+        url: "./bhajan/shiv/SatyamShivamSundaram.mp3",
       },
       {
         title: "Lingaashtakam",
-        url: "./bhajan/mp3/Lingaashtakam.mp3",
+        url: "./bhajan/shiv/Lingaashtakam.mp3",
       },
       {
         title: "Shiv Dhun Om Namah Shivay",
-        url: "./bhajan/mp3/ShivDhunOmNamahShivay.mp3",
+        url: "./bhajan/shiv/ShivDhunOmNamahShivay.mp3",
       },
       {
         title: "Jagat Chatna Hu Anadi Ananta",
-        url: "./bhajan/mp3/JagatChatnaHuAnadiAnanta.mp3",
+        url: "./bhajan/shiv/JagatChatnaHuAnadiAnanta.mp3",
       },
       {
         title: "Mahamrityunjay Mantra",
-        url: "./bhajan/mp3/MahamrityunjayMantra.mp3",
+        url: "./bhajan/shiv/MahamrityunjayMantra.mp3",
       },
       {
         title: "Aisi Subah Na Aaye",
@@ -159,8 +151,8 @@ const playlists = [
         url: "./bhajan/radhe-krishna/Radhe-Radhe-Japa-Karo.mp3",
       },
       {
-        title: "Shri krishna bhajans",
-        url: "./bhajan/radhe-krishna/Shri_krishna_bhajans.mp3",
+        title: "Kisori Kuch Aisa Intjam Ho Jaye",
+        url: "./bhajan/radhe-krishna/KISHORIKUCHAISAINTJAMHOJAYE.mp3",
       },
       {
         title: "Vida He Murlidhar Vida",
@@ -171,8 +163,17 @@ const playlists = [
         url: "./bhajan/radhe-krishna/Ye-To-Prem-Ki-Bat-Hin-Udho.mp3",
       },
       {
+        title: "Shri krishna bhajans",
+        url: "./bhajan/radhe-krishna/Shri_krishna_bhajans.mp3",
+      },
+
+      {
         title: "Krishna Govind Gopal Madhav Hare",
         url: "./bhajan/radhe-krishna/Krishna_govind_gopal_madhav_hare.mp3",
+      },
+      {
+        title: "Pakad Lo Hath Banvari Nahin To",
+        url: "./bhajan/radhe-krishna/PakadLoHathBanvariNahinToDoobJaenge.mp3",
       },
     ],
   },
