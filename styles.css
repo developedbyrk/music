@@ -45,6 +45,11 @@ body {
   color: #a16742;
 }
 
+div#playlistsContainer {
+  height: calc(100vh - 315px);
+  overflow-y: auto;
+}
+
 #currentPlaylist {
   margin-bottom: 4px;
   color: #d59367;
@@ -158,7 +163,7 @@ button {
 }
 
 ::-webkit-scrollbar {
-  width: 0.5em;
+  width: 0.4rem;
   height: 0.4rem;
 }
 

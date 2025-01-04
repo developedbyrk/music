@@ -86,7 +86,7 @@ const playlists = [
     ],
   },
   {
-    name: "Mata ke Bhajan",
+    name: "Mata ke Bhajans",
     tracks: [
       {
         title: "Shri Durga Raksha Kavach",
@@ -132,7 +132,7 @@ const playlists = [
     ],
   },
   {
-    name: "Radhe Krishna Bhajan",
+    name: "Radhe Krishna Bhajans",
     tracks: [
       {
         title: "Radha Ki Kirpa",
