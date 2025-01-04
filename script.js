@@ -33,7 +33,7 @@ const playlists = [
     ],
   },
   {
-    name: "Shiv Bhajans & Hanuman Chalisa",
+    name: "Shiv Bhajans",
     tracks: [
       {
         title: "Karpur Gauram Karunavtaram",
@@ -71,6 +71,20 @@ const playlists = [
         title: "Mahamrityunjay Mantra",
         url: "./bhajan/mp3/MahamrityunjayMantra.mp3",
       },
+    ],
+  },
+  {
+    name: "Mata ke Bhajan",
+    tracks: [
+      {
+        title: "Shri Durga Raksha Kavach",
+        url: "./bhajan/mp4/shri-durga-raksha-kavach.mp4",
+      },
+    ],
+  },
+  {
+    name: "Shri Ram & Hanuman Ji",
+    tracks: [
       {
         title: "Shri Hanuman Chalisa",
         url: "./bhajan/mp3/ShriHanumanChalisa.mp3",
@@ -78,11 +92,35 @@ const playlists = [
     ],
   },
   {
-    name: "Bhajans MP4",
+    name: "Radhe Krishna Bhajan",
     tracks: [
       {
-        title: "Shri Durga Raksha Kavach",
-        url: "./bhajan/mp4/shri-durga-raksha-kavach.mp4",
+        title: "Radha Ki Kirpa",
+        url: "./bhajan/radhe-krishna/Radha-Ki-Kirpa.mp3",
+      },
+      {
+        title: "Radha Nam Sang Brij 84 Kosh Yatra",
+        url: "./bhajan/radhe-krishna/Radha-Nam-Sang-Brij-84-Kosh-Yatra.mp3",
+      },
+      {
+        title: "Radhe Albeli Sarkar",
+        url: "./bhajan/radhe-krishna/Radhe-Albeli-Sarkar-remix.mp3",
+      },
+      {
+        title: "Radhe Radhe Japa Karo",
+        url: "./bhajan/radhe-krishna/Radhe-Radhe-Japa-Karo.mp3",
+      },
+      {
+        title: "Shri krishna bhajans",
+        url: "./bhajan/radhe-krishna/Shri_krishna_bhajans.mp3",
+      },
+      {
+        title: "Vida He Murlidhar Vida",
+        url: "./bhajan/radhe-krishna/Vida_he_murlidhar_vida.mp3",
+      },
+      {
+        title: "Ye To Prem Ki Bat Hia Udho",
+        url: "./bhajan/radhe-krishna/Ye-To-Prem-Ki-Bat-Hin-Udho.mp3",
       },
     ],
   },
