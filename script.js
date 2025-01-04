@@ -86,7 +86,7 @@ const playlists = [
     ],
   },
   {
-    name: "Mata ke Bhajans",
+    name: "Mata Ke Bhajans",
     tracks: [
       {
         title: "Shri Durga Raksha Kavach",
