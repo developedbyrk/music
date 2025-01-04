@@ -100,6 +100,26 @@ const playlists = [
         title: "Shri Durga Raksha Kavach",
         url: "./bhajan/mp4/shri-durga-raksha-kavach.mp4",
       },
+      {
+        title: "Jay Ambe Gauri Maiya Jay Shyaama Gauri",
+        url: "./bhajan/mata/Jay-Ambe-Gauri-Maiya-Jay-Shyaama-Gauri.mp3",
+      },
+      {
+        title: "Maa Maa Teri Mamta Se Mithi",
+        url: "./bhajan/mata/Maa-Maa-Teri-Mamta-Se-Mithi.mp3",
+      },
+      {
+        title: "Mann Mera Mandir",
+        url: "./bhajan/mata/MANN-MERA-MANDIR.mp3",
+      },
+      {
+        title: "Mere Naino Ki Pyas Bujha De",
+        url: "./bhajan/mata/Mere-Naino-Ki-Pyas-Bujha-De.mp3",
+      },
+      {
+        title: "Sar Ko Jhuka Lo Sherawali Ko Mana Lo",
+        url: "./bhajan/mata/Sar-Ko-Jhuka-Lo-Sherawali-Ko-Mana-Lo.mp3",
+      },
     ],
   },
   {
