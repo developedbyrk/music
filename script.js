@@ -32,6 +32,10 @@ const playlists = [
     name: "Shiv Bhajans",
     tracks: [
       {
+        title: "Shiv Amritwani",
+        url: "./bhajan/shiv/Shiv-Amritwani.mp3",
+      },
+      {
         title: "Karpur Gauram Karunavtaram",
         url: "./bhajan/shiv/KarpurGauramKarunavtaram.mp3",
       },
