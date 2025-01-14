@@ -97,15 +97,15 @@ const playlists = [
         url: "./bhajan/vimal-playlist/1-Samb-Sadashiv-Meditation-Version.mp3",
       },
       {
-        title: "Ram Nam Ke Hire Moti",
-        url: "./bhajan/vimal-playlist/RamNamKeHireMoti.mp3",
+        title: "Samb Sadashiv Mantra 108",
+        url: "./bhajan/vimal-playlist/2-Samb-Sadashiv-Mantra-108.mp3",
       },
       {
         title: "Samb Sadashiv Mantra Har Har Mahadev",
         url: "./bhajan/vimal-playlist/3-Samb-Sadashiv-Mantra-Har-Har-Mahadev.mp3",
       },
       {
-        title: "Buddhist Sound Therapy for Anxiety and Stress",
+        title: "Buddhist Sound Therapy",
         url: "./bhajan/vimal-playlist/4-Buddhist-Sound-Therapy-for-Anxiety-and-Stress-Management.mp3",
       },
     ],
