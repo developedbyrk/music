@@ -137,6 +137,10 @@ const playlists = [
         title: "Sar Ko Jhuka Lo Sherawali Ko Mana Lo",
         url: "./bhajan/mata/Sar-Ko-Jhuka-Lo-Sherawali-Ko-Mana-Lo.mp3",
       },
+      {
+        title: "Ayigiri Nandini Mahishasura Marddini Sthothram",
+        url: "./bhajan/mata/Ayigiri-Nandini-Mahishasura-Marddini-Sthothram.mp3",
+      },
     ],
   },
   {
@@ -153,6 +157,10 @@ const playlists = [
       {
         title: "Shri Hanuman Chalisa",
         url: "./bhajan/ram-hanuman/Shri-Hanuman-Chalisa.mp3",
+      },
+      {
+        title: "Veer Hanumana Aati Balwana",
+        url: "./bhajan/ram-hanuman/Veer-Hanumana-Aati-Balwana.mp3",
       },
     ],
   },
