@@ -93,8 +93,8 @@ const playlists = [
     name: "Vimal Playlist",
     tracks: [
       {
-        title: "Racha Hai Srishti Ko Jis Prabhu Ne",
-        url: "./bhajan/mp3/RachaHaiSrishtiKoJisPrabhuNe.mp3",
+        title: "Samb Sadashiv Meditation Version",
+        url: "./bhajan/vimal-playlist/1-Samb-Sadashiv-Meditation-Version.mp3",
       },
       {
         title: "Ram Nam Ke Hire Moti",
