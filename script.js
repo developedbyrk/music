@@ -87,6 +87,10 @@ const playlists = [
         title: "Tera Pal Pal Beeta Jaye",
         url: "./bhajan/shiv/TERA-PAL-PAL-BEETA-JAYE.mp3",
       },
+      {
+        title: "Top 10 Shiv Bhajans By Gulshan Kumar",
+        url: "./bhajan/shiv/Top-10-Best-Shiv-Bhajans-By-Gulshan-Kumar.mp3",
+      },
     ],
   },
   {
