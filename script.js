@@ -90,6 +90,35 @@ const playlists = [
     ],
   },
   {
+    name: "Vimal Playlist",
+    tracks: [
+      {
+        title: "Racha Hai Srishti Ko Jis Prabhu Ne",
+        url: "./bhajan/mp3/RachaHaiSrishtiKoJisPrabhuNe.mp3",
+      },
+      {
+        title: "Ram Nam Ke Hire Moti",
+        url: "./bhajan/mp3/RamNamKeHireMoti.mp3",
+      },
+      {
+        title: "Mujhe Tumne Malik Bahut Diya Hai",
+        url: "./bhajan/mp3/MujheTumneMalikBahutDeDiyahai.mp3",
+      },
+      {
+        title: "Vishnu Sahasranamam",
+        url: "./bhajan/mp3/VishnuSahasranamam.mp3",
+      },
+      {
+        title: "Nar Sharir Anmol Hai Prani",
+        url: "./bhajan/mp3/NarSharirAnmolHaiPrani.mp3",
+      },
+      {
+        title: "Saare Thirath Dhaam Aapke",
+        url: "./bhajan/mp3/Saare-Thirath-Dhaam-Aapke.mp3",
+      },
+    ],
+  },
+  {
     name: "Mata Ke Bhajans",
     tracks: [
       {
