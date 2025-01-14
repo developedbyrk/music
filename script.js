@@ -105,7 +105,7 @@ const playlists = [
         url: "./bhajan/vimal-playlist/3-Samb-Sadashiv-Mantra-Har-Har-Mahadev.mp3",
       },
       {
-        title: "Buddhist Sound Therapy for Anxiety and Stress",
+        title: "Buddhist Sound Therapy",
         url: "./bhajan/vimal-playlist/4-Buddhist-Sound-Therapy-for-Anxiety-and-Stress-Management.mp3",
       },
     ],
