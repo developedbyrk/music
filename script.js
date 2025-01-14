@@ -98,23 +98,15 @@ const playlists = [
       },
       {
         title: "Ram Nam Ke Hire Moti",
-        url: "./bhajan/mp3/RamNamKeHireMoti.mp3",
+        url: "./bhajan/vimal-playlist/RamNamKeHireMoti.mp3",
       },
       {
-        title: "Mujhe Tumne Malik Bahut Diya Hai",
-        url: "./bhajan/mp3/MujheTumneMalikBahutDeDiyahai.mp3",
+        title: "Samb Sadashiv Mantra Har Har Mahadev",
+        url: "./bhajan/vimal-playlist/3-Samb-Sadashiv-Mantra-Har-Har-Mahadev.mp3",
       },
       {
-        title: "Vishnu Sahasranamam",
-        url: "./bhajan/mp3/VishnuSahasranamam.mp3",
-      },
-      {
-        title: "Nar Sharir Anmol Hai Prani",
-        url: "./bhajan/mp3/NarSharirAnmolHaiPrani.mp3",
-      },
-      {
-        title: "Saare Thirath Dhaam Aapke",
-        url: "./bhajan/mp3/Saare-Thirath-Dhaam-Aapke.mp3",
+        title: "Buddhist Sound Therapy for Anxiety and Stress",
+        url: "./bhajan/vimal-playlist/4-Buddhist-Sound-Therapy-for-Anxiety-and-Stress-Management.mp3",
       },
     ],
   },
