@@ -80,7 +80,7 @@ body {
 }
 
 div#playlistsContainer {
-  height: calc(100dvh - 270px);
+  height: calc(100dvh - 250px);
   overflow-y: auto;
 }
 
@@ -104,14 +104,14 @@ button {
 }
 
 .player-wrapper {
-  min-height: 60px;
+  min-height: 40px;
   position: relative;
+  padding-bottom: 8px;
 }
 
 .active-song-n-playlist-ctrl {
   display: flex;
   justify-content: space-between;
-  padding-block-start: 4px;
 
   #currentPlaylist {
     margin-bottom: 4px;
