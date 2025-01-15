@@ -166,6 +166,10 @@ const playlists = [
         title: "Veer Hanumana Aati Balwana",
         url: "./bhajan/ram-hanuman/Veer-Hanumana-Aati-Balwana.mp3",
       },
+      {
+        title: "Sundar Kand By Ravindra Jain",
+        url: "./bhajan/ram-hanuman/Sundar-Kand.mp3",
+      },
     ],
   },
   {
@@ -219,6 +223,8 @@ const playlists = [
 let currentPlaylistIndex = 0;
 let currentTrackIndex = 0;
 let isAutoplay = true;
+let repeatMode = false; // false - No repeat, true - Repeat current track
+
 
 const audioPlayer = document.getElementById("audioPlayer");
 const videoPlayer = document.getElementById("videoPlayer");
@@ -287,31 +293,49 @@ prevBtn.addEventListener("click", () => {
   playMedia();
 });
 
+// Repeat button functionality
+const repeatBtn = document.getElementById("repeatBtn");
+
+repeatBtn.addEventListener("click", () => {
+  repeatMode = !repeatMode; // Toggle repeatMode between true/false
+
+  // Update the button's icon based on repeatMode
+  if (repeatMode) {
+    repeatBtn.title = "Repeat current track";
+    repeatBtn.classList.add("repeat-track");
+  } else {
+    repeatBtn.title = "No repeat";
+    repeatBtn.classList.remove("repeat-track");
+  }
+});
+
+
 // Autoplay toggle
 autoplayToggle.addEventListener("click", () => {
   isAutoplay = !isAutoplay;
-  autoplayToggle.textContent = isAutoplay ? "Autoplay: ON" : "Autoplay: OFF";
+  // Update the button's classes to reflect autoplay state
+  autoplayToggle.classList = isAutoplay ? "autoplay-on" : "autoplay-off";
 });
+
 
 // Handle autoplay after track ends
 function handleAutoplay() {
-  // const currentPlaylist = playlists[currentPlaylistIndex];
-  // if (isAutoplay) {
-  //   currentTrackIndex++;
-  //   if (currentTrackIndex >= currentPlaylist.tracks.length) {
-  //     currentTrackIndex = 0; // Loop back to the first track
-  //   }
-  //   playMedia();
-  // }
+  const currentPlaylist = playlists[currentPlaylistIndex];
 
-    const currentPlaylist = playlists[currentPlaylistIndex];
+  // Repeat the current track if repeatMode is true
+  if (repeatMode) {
+    playMedia(); // Replay the current track
+  } else if (isAutoplay) {
+    // Otherwise, move to the next track (if autoplay is on)
     currentTrackIndex++;
     if (currentTrackIndex >= currentPlaylist.tracks.length) {
-      currentTrackIndex = currentPlaylist.tracks.length - 1; // Stay on the last track
-      return; // Stop autoplay
+      currentTrackIndex = 0; // Loop back to the first track if autoplay is on
     }
     playMedia();
+  }
 }
+
+
 
 // Add event listeners for track end (to trigger autoplay)
 audioPlayer.addEventListener("ended", handleAutoplay);
