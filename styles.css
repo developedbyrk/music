@@ -31,41 +31,57 @@ body {
     max-width: 100%;
   }
 }
-
-.search {
-  font-family: Ubuntu, sans-serif;
-  width: 100%;
-  background: linear-gradient(45deg, #4a2b16, #a16742);
-  border-width: 0;
-  padding: 4px;
-  margin-bottom: 12px;
-  color: #fff;
+/* Style the repeat button when repeatMode is active */
+#repeatBtn.repeat-track i {
+  color: green; /* Color when repeat is active */
 }
 
-::placeholder {
-  color: #a16742;
+.copilot-des-ref {
+  padding: 4px 16px;
+  border-radius: 24px;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 12px;
+
+  .search {
+    font-family: Ubuntu, sans-serif;
+    background: #fff;
+    color: #4a2b16;
+    border-radius: 12px;
+    padding: 4px 8px;
+    width: 100%;
+    border-width: 0;
+    margin-bottom: 0;
+  }
+
+  #autoplayToggle {
+    color: #4a2b16;
+    font-size: 2.5rem;
+  }
+
+  .autoplay-on {
+    .bi-toggle-off {
+      display: none;
+    }
+  }
+  .autoplay-off {
+    .bi-toggle-on {
+      display: none;
+    }
+  }
+
+  button,
+  ::placeholder {
+    color: #4a2b16;
+  }
 }
 
 div#playlistsContainer {
-  height: calc(100vh - 315px);
-  height: calc(100dvh - 315px);
+  height: calc(100dvh - 270px);
   overflow-y: auto;
-}
-
-#currentPlaylist {
-  margin-bottom: 4px;
-  color: #d59367;
-}
-
-#currentSongTitle {
-  margin-bottom: 10px;
-  font-size: 1.6rem;
-}
-
-#playbackControls {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 16px;
 }
 
 button {
@@ -83,11 +99,6 @@ button {
   }
 }
 
-#autoplayToggle {
-  font-size: 1.4rem;
-  color: #d59367;
-}
-
 .hidden {
   display: none;
 }
@@ -97,20 +108,30 @@ button {
   position: relative;
 }
 
-.toggle-playlist {
+.active-song-n-playlist-ctrl {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding-block-start: 4px;
+
+  #currentPlaylist {
+    margin-bottom: 4px;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1rem;
+  }
+
+  #currentSongTitle {
+    font-size: 1.6rem;
+  }
 
   #toggleAllBtn {
     font-size: 1.4rem;
     padding-inline: 4px;
     color: #fff;
   }
-}
 
-.bi-toggle-off {
-  display: none;
+  .bi-toggle-off {
+    display: none;
+  }
 }
 
 .playlist-accordion {
@@ -162,6 +183,10 @@ button {
   width: 100%;
   position: relative;
   z-index: 1;
+}
+
+#audioPlayer {
+  height: 40px;
 }
 
 ::-webkit-scrollbar {
