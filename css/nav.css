@@ -1,0 +1,40 @@
+.navigation {
+  position: absolute;
+  cursor: pointer;
+
+  .bi {
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  &:has(.show) {
+    .bi {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+}
+
+.nav-list {
+  display: none;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  position: absolute;
+  width: max-content;
+  padding: 4px 8px;
+  border-radius: 0 12px 12px 12px;
+  border: 1px solid #fff;
+  background-color: rgba(255, 255, 255, 0.8);
+  gap: 6px;
+  padding-block: 8px;
+  box-shadow: 0 3px 5px var(--primaryColor);
+  font-size: 1.2rem;
+
+  a {
+    text-decoration: none;
+    color: var(--primaryColor);
+  }
+}
+
+.nav-list.show {
+  display: grid;
+  opacity: 1;
+}
