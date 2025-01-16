@@ -14,15 +14,25 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/nav.css" />
   </head>
 
   <body>
     <div class="music-player-wrapper">
+      <!-- nav start -->
+      <div class="navigation">
+        <i class="bi bi-caret-down-square-fill"></i>
+
+        <div class="nav-list">
+          <a href="https://onlinemala.netlify.app/" target="_blank">Online Mala</a>
+          <a href="https://digital-mala.netlify.app/" target="_blank">Digital Mala</a>
+          <a href="https://jai-hanuman.netlify.app/" target="_blank">Jai Shri Hanuman</a>
+        </div>
+      </div>
+      <!-- nav end -->
       <div class="logo">
-        <a href="https://jai-hanuman.netlify.app/" target="_blank">
           <img src="./shiv.png" alt="Om Namah Shivay" />
-        </a>
       </div>
       <div class="copilot-des-ref">
         <button id="prevBtn">
@@ -62,6 +72,7 @@
       </div>
       <div id="playlistsContainer"></div>
     </div>
-    <script src="./script.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/nav.js"></script>
   </body>
 </html>
