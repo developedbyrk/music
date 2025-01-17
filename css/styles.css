@@ -15,6 +15,7 @@ body {
   font-family: Ubuntu, sans-serif;
   font-size: 1.4rem;
   color: #fff;
+  background: linear-gradient(0deg, var(--secondaryColor), var(--primaryColor));
 }
 
 .music-player-wrapper {

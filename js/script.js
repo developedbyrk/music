@@ -318,23 +318,44 @@ autoplayToggle.addEventListener("click", () => {
 });
 
 
-// Handle autoplay after track ends
+// Handle autoplay after track ends (just last track not stoping in the end, rest are working fine)
+// function handleAutoplay() {
+//   const currentPlaylist = playlists[currentPlaylistIndex];
+
+//   // Repeat the current track if repeatMode is true
+//   if (repeatMode) {
+//     playMedia(); // Replay the current track
+//   } else if (isAutoplay) {
+//     // Otherwise, move to the next track (if autoplay is on)
+//     currentTrackIndex++;
+//     if (currentTrackIndex >= currentPlaylist.tracks.length) {
+//       currentTrackIndex = 0; // Loop back to the first track if autoplay is on
+//     }
+//     playMedia();
+//   }
+// }
+
+// Handle autoplay after track ends (autoplay, repeat, and last track stop if no repeat)
 function handleAutoplay() {
   const currentPlaylist = playlists[currentPlaylistIndex];
 
-  // Repeat the current track if repeatMode is true
+  // If repeatMode is enabled, repeat the current track
   if (repeatMode) {
     playMedia(); // Replay the current track
   } else if (isAutoplay) {
-    // Otherwise, move to the next track (if autoplay is on)
+    // Move to the next track only if it's not the last track
     currentTrackIndex++;
+
     if (currentTrackIndex >= currentPlaylist.tracks.length) {
-      currentTrackIndex = 0; // Loop back to the first track if autoplay is on
+      // Stop at the last track (do nothing further if at the end)
+      currentTrackIndex = currentPlaylist.tracks.length - 1;
+      return; // Do nothing, stay on the last track
     }
+    
+    // Play the next track
     playMedia();
   }
 }
-
 
 
 // Add event listeners for track end (to trigger autoplay)
