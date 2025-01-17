@@ -335,7 +335,6 @@ autoplayToggle.addEventListener("click", () => {
 //   }
 // }
 
-
 // Handle autoplay after track ends (autoplay, repeat, and last track stop if no repeat)
 function handleAutoplay() {
   const currentPlaylist = playlists[currentPlaylistIndex];
@@ -357,10 +356,6 @@ function handleAutoplay() {
     playMedia();
   }
 }
-
-
-
-
 
 
 // Add event listeners for track end (to trigger autoplay)
