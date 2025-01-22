@@ -218,6 +218,15 @@ const playlists = [
       },
     ],
   },
+  {
+    name: "Meditation Sounds",
+    tracks: [
+      {
+        title: "1 Hour Version  Brahmananda Swaroopa",
+        url: "./bhajan/meditation-sounds/1-Hour-Version-Brahmananda-Swaroopa.mp3",
+      },
+    ],
+  },
 ];
 
 let currentPlaylistIndex = 0;
