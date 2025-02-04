@@ -120,6 +120,7 @@ button {
 .active-song-n-playlist-ctrl {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 10px;
 
   #currentPlaylist {
     margin-bottom: 4px;
@@ -144,6 +145,10 @@ button {
 
 .playlist-accordion {
   margin: 10px 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 .accordion-header {
@@ -200,7 +205,7 @@ button {
   width: 100%;
   position: relative;
   z-index: 1;
-  max-height: 50vh;
+  max-height:45vh;
 }
 
 #audioPlayer {

@@ -95,6 +95,22 @@ const playlists = [
         title: "Top 10 Shiv Bhajans By Gulshan Kumar",
         url: "./bhajan/shiv/Top-10-Best-Shiv-Bhajans-By-Gulshan-Kumar.mp3",
       },
+      {
+        title: "Parvati Vallabh Ashtakam I Shiva Stotram",
+        url: "./bhajan/shiv/Parvati-Vallabh-Ashtakam-Shiva-Stotram.mp3",
+      },
+      {
+        title: "Shiva Stotram  Shiv Suvarnmala Stuti",
+        url: "./bhajan/shiv/Shiva-Stotram-Shiv-Suvarnmala-Stuti.mp3",
+      },
+      {
+        title: "Nirvana Shatakam Chidanand Roopah Shivoham Shivoham",
+        url: "./bhajan/shiv/Nirvana-Shatakam-Chidanand-Roopah-Shivoham-Shivoham.mp3",
+      },
+      {
+        title: "Rudrashtakam Namami Shamishan Nirvan Roopam Shiva Stotram",
+        url: "./bhajan/shiv/Rudrashtakam-Namami-Shamishan-Nirvan-Roopam-Shiva-Stotram.mp3",
+      },
     ],
   },
   {
@@ -232,7 +248,7 @@ const playlists = [
     ],
   },
   {
-    name: "Life Transforming Messages (Short Videos)",
+    name: "Inspirational Short Videos",
     tracks: [
       {
         title: "Remind Yourself This One Thing Every Hour",
@@ -241,6 +257,10 @@ const playlists = [
       {
         title: "Preparing to receive Sadhguru's grace",
         url: "./media/life-transforming-messages/Preparing-to-receive-Sadhguru's-grace.mp4",
+      },
+      {
+        title: "Make Your Life Into An Offering",
+        url: "./media/life-transforming-messages/Make-Your-Life-Into-An-Offering.mp4",
       },
       {
         title: "The Power of “Aum Namah Shivaya”",
@@ -267,8 +287,7 @@ const playlists = [
         url: "./media/life-transforming-messages/Do-you-imbibe-or-expand.mp4",
       },
       {
-        title:
-          "Powerful Pratyahara Yoga! Learn to Sit Like This with Eyes Closed",
+        title: "Learn to Sit Like This with Eyes Closed",
         url: "./media/life-transforming-messages/Powerful-Pratyahara-Yoga!-Learn-to-Sit-Like-This-with-Eyes-Closed.mp4",
       },
       {
@@ -288,7 +307,7 @@ const playlists = [
         url: "./media/life-transforming-messages/Vivek-Oberoi-Explain-Savings.mp4",
       },
       {
-        title: "Workout :: After Delivery",
+        title: "Workout After Delivery",
         url: "./media/life-transforming-messages/Workout-After-Delivery.mp4",
       },
       {
@@ -296,7 +315,7 @@ const playlists = [
         url: "./media/life-transforming-messages/Hanuman-dand.mp4",
       },
       {
-        title: "Workout :: Importance of Pushups",
+        title: "Workout Suggestion",
         url: "./media/life-transforming-messages/Workout-Pushups.mp4",
       },
     ],
