@@ -232,7 +232,7 @@ const playlists = [
     ],
   },
   {
-    name: "Life Transforming Messages",
+    name: "Life Transforming Messages (Short Videos)",
     tracks: [
       {
         title: "Remind Yourself This One Thing Every Hour",
