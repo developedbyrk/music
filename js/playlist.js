@@ -284,15 +284,15 @@ const playlists = [
         url: "./media/life-transforming-messages/Vivek-Oberoi-Explain-Savings.mp4",
       },
       {
-        title: "Workout After Delivery",
+        title: "Workout :: After Delivery",
         url: "./media/life-transforming-messages/Workout-After-Delivery.mp4",
       },
       {
-        title: "Hanuman dand",
+        title: "Workout :: Hanuman dand",
         url: "./media/life-transforming-messages/Hanuman-dand.mp4",
       },
       {
-        title: "Workout Pushups",
+        title: "Workout :: Importance of Pushups",
         url: "./media/life-transforming-messages/Workout-Pushups.mp4",
       },
     ],

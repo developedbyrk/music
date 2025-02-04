@@ -166,14 +166,39 @@ function renderPlaylists(searchQuery = "") {
 
       const trackItem = document.createElement("div");
       trackItem.className = "track-item";
-      trackItem.textContent = track.title;
+      // trackItem.textContent = track.title; // Removed to add thumbnail to the track
+      // code added to add thumbnail to the track
+      const trackContent = document.createElement("div");
+      trackContent.className = "track-content";
+
+      const titleSpan = document.createElement("span");
+      titleSpan.textContent = track.title;
+      trackContent.appendChild(titleSpan);
+
+      // Generate and append a thumbnail for video tracks
+      if (track.url.endsWith(".mp4")) {
+        getVideoThumbnail(track.url)
+          .then((thumbnailUrl) => {
+            const thumbImg = document.createElement("img");
+            thumbImg.src = thumbnailUrl;
+            thumbImg.alt = track.title;
+            thumbImg.className = "thumbnail";
+            trackContent.insertBefore(thumbImg, titleSpan);
+          })
+          .catch((err) => console.error(err));
+      }
+
+      trackItem.appendChild(trackContent);
+      //code eneded to added the thumbnail to the track
       trackItem.addEventListener("click", () => {
         currentPlaylistIndex = playlistIndex;
         currentTrackIndex = trackIndex;
         playMedia();
       });
+
       playlistContent.appendChild(trackItem);
     });
+
 
     playlistElement.appendChild(playlistHeader);
     playlistElement.appendChild(playlistContent);
