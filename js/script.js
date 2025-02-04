@@ -176,17 +176,17 @@ function renderPlaylists(searchQuery = "") {
       trackContent.appendChild(titleSpan);
 
       // Generate and append a thumbnail for video tracks
-if (track.url.endsWith(".mp4")) {
-  getVideoThumbnail(track.url)
-    .then((thumbnailUrl) => {
-      const thumbImg = document.createElement("img");
-      thumbImg.src = thumbnailUrl; // Use blob URL instead of base64
-      thumbImg.alt = track.title;
-      thumbImg.className = "thumbnail";
-      trackContent.insertBefore(thumbImg, titleSpan);
-    })
-    .catch((err) => console.error(err));
-}
+      if (track.url.endsWith(".mp4")) {
+        getVideoThumbnail(track.url)
+          .then((thumbnailUrl) => {
+            const thumbImg = document.createElement("img");
+            thumbImg.src = thumbnailUrl; // Use blob URL instead of base64
+            thumbImg.alt = track.title;
+            thumbImg.className = "thumbnail";
+            trackContent.insertBefore(thumbImg, titleSpan);
+          })
+          .catch((err) => console.error(err));
+      }
 
       trackItem.appendChild(trackContent);
       //code eneded to added the thumbnail to the track
@@ -198,7 +198,6 @@ if (track.url.endsWith(".mp4")) {
 
       playlistContent.appendChild(trackItem);
     });
-
 
     playlistElement.appendChild(playlistHeader);
     playlistElement.appendChild(playlistContent);
