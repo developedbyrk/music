@@ -311,7 +311,7 @@ const playlists = [
         url: "./media/life-transforming-messages/Workout-After-Delivery.mp4",
       },
       {
-        title: "Workout :: Hanuman dand",
+        title: "Workout Hanuman dand",
         url: "./media/life-transforming-messages/Hanuman-dand.mp4",
       },
       {
