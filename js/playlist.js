@@ -26,6 +26,10 @@ const playlists = [
         title: "Saare Thirath Dhaam Aapke",
         url: "./bhajan/mp3/Saare-Thirath-Dhaam-Aapke.mp3",
       },
+      {
+        title: "Dhan Dhan Hai Teri Karigari Bhagvan",
+        url: "./bhajan/mp3/Dhan-Dhan-Hai-Teri-Karigari-Bhagvan.mp3",
+      },
     ],
   },
   {
