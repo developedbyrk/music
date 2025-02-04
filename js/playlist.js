@@ -311,12 +311,48 @@ const playlists = [
         url: "./media/life-transforming-messages/Workout-After-Delivery.mp4",
       },
       {
-        title: "Workout :: Hanuman dand",
+        title: "Workout Hanuman dand",
         url: "./media/life-transforming-messages/Hanuman-dand.mp4",
       },
       {
         title: "Workout Suggestion",
         url: "./media/life-transforming-messages/Workout-Pushups.mp4",
+      },
+      {
+        title: "Living Without Regrets",
+        url: "./media/life-transforming-messages/Living-Without-Regrets.mp4",
+      },
+      {
+        title: "How To Know The Value Of Life",
+        url: "./media/life-transforming-messages/How-To-Know-The-Value-Of-Life.mp4",
+      },
+      {
+        title: "Concept Of Heaven & Hell",
+        url: "./media/life-transforming-messages/Concept-Of-Heaven-&-Hell.mp4",
+      },
+      {
+        title: "Enlightenment Day Special",
+        url: "./media/life-transforming-messages/Enlightenment-Day-Special.mp4",
+      },
+      {
+        title: "Ultimate liberation",
+        url: "./media/life-transforming-messages/Ultimate-liberation.mp4",
+      },
+      {
+        title: "The Only Thing Sadhguru Wants to Tell You",
+        url: "./media/life-transforming-messages/The-Only-Thing-Sadhguru-Wants-to-Tell-You.mp4",
+      },
+      {
+        title: "Jeevan Ko Bachakar Nhi Rakha Ja Skta",
+        url: "./media/life-transforming-messages/Jeevan-ko-Bachakar-nhi-rakha-ja-skta.mp4",
+      },
+      {
+        title: "The Only Thing That Matters in Life",
+        url: "./media/life-transforming-messages/The-Only-Thing-That-Matters-in-Life.mp4",
+      },
+      {
+        title: "Suryanamaskar",
+        url: "./media/life-transforming-messages/Suryanamaskar.mp4",
       },
     ],
   },
