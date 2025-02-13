@@ -239,121 +239,123 @@ const playlists = [
     ],
   },
   {
-    name: "Meditation Sounds",
+    name: "Meditation",
     tracks: [
       {
         title: "1 Hour Version  Brahmananda Swaroopa",
-        url: "./bhajan/meditation-sounds/1-Hour-Version-Brahmananda-Swaroopa.mp3",
+        url: "./media/meditation/1-Hour-Version-Brahmananda-Swaroopa.mp3",
+      },
+      {
+        title: "Focus Will Be Created Only on Desire",
+        url: "./media/meditation/Focus-Will-Be-Created-Only-on-Desire.mp4",
+      },
+      {
+        title: "Suprabhat Dhyan",
+        url: "./media/meditation/Suprabhat-Dhyan.mp3",
       },
     ],
   },
   {
-    name: "Inspirational Short Videos",
+    name: "Inspirational Shorts",
     tracks: [
       {
-        title: "Remind Yourself This One Thing Every Hour",
-        url: "./media/life-transforming-messages/Remind-Yourself-This-One-Thing-Every-Hour.mp4",
-      },
-      {
-        title: "Preparing to receive Sadhguru's grace",
-        url: "./media/life-transforming-messages/Preparing-to-receive-Sadhguru's-grace.mp4",
-      },
-      {
-        title: "Make Your Life Into An Offering",
-        url: "./media/life-transforming-messages/Make-Your-Life-Into-An-Offering.mp4",
-      },
-      {
-        title: "The Power of “Aum Namah Shivaya”",
-        url: "./media/life-transforming-messages/The-Power-of-“Aum-Namah-Shivaya”.mp4",
-      },
-      {
-        title: "Universe will Bless You",
-        url: "./media/life-transforming-messages/Universe-will-Bless-You.mp4",
-      },
-      {
-        title: "A Guru’s Extreme Lesson",
-        url: "./media/life-transforming-messages/A-Guru’s-Extreme-Lesson.mp4",
-      },
-      {
-        title: "Focus Will Be Created Only on Desire",
-        url: "./media/life-transforming-messages/Focus-Will-Be-Created-Only-on-Desire.mp4",
-      },
-      {
-        title: "Do This Before You Take a Dip",
-        url: "./media/life-transforming-messages/Do-This-Before-You-Take-a-Dip.mp4",
-      },
-      {
-        title: "Do you imbibe or expand",
-        url: "./media/life-transforming-messages/Do-you-imbibe-or-expand.mp4",
-      },
-      {
-        title: "Learn to Sit Like This with Eyes Closed",
-        url: "./media/life-transforming-messages/Powerful-Pratyahara-Yoga!-Learn-to-Sit-Like-This-with-Eyes-Closed.mp4",
-      },
-      {
-        title: "Follow Your Dreams Or Obey Your Parents Wishes",
-        url: "./media/life-transforming-messages/Follow-Your-Dreams-Or-Obey-Your-Parents-Wishes.mp4",
-      },
-      {
         title: "Don't argue just follow this and move on",
-        url: "./media/life-transforming-messages/Don't-argue-just-follow-this-and-move-on.mp4",
+        url: "./media/inspirational-shorts/Don't-argue-just-follow-this-and-move-on.mp4",
       },
       {
         title: "This Is Why the Mind Gets Tired Quickly",
-        url: "./media/life-transforming-messages/This-Is-Why-the-Mind-Gets-Tired-Quickly.mp4",
+        url: "./media/inspirational-shorts/This-Is-Why-the-Mind-Gets-Tired-Quickly.mp4",
       },
       {
         title: "Vivek Oberoi Explain Savings",
-        url: "./media/life-transforming-messages/Vivek-Oberoi-Explain-Savings.mp4",
+        url: "./media/inspirational-shorts/Vivek-Oberoi-Explain-Savings.mp4",
       },
       {
         title: "Workout After Delivery",
-        url: "./media/life-transforming-messages/Workout-After-Delivery.mp4",
+        url: "./media/inspirational-shorts/Workout-After-Delivery.mp4",
       },
       {
         title: "Workout Hanuman dand",
-        url: "./media/life-transforming-messages/Hanuman-dand.mp4",
+        url: "./media/inspirational-shorts/Hanuman-dand.mp4",
       },
       {
         title: "Workout Suggestion",
-        url: "./media/life-transforming-messages/Workout-Pushups.mp4",
-      },
-      {
-        title: "Living Without Regrets",
-        url: "./media/life-transforming-messages/Living-Without-Regrets.mp4",
-      },
-      {
-        title: "How To Know The Value Of Life",
-        url: "./media/life-transforming-messages/How-To-Know-The-Value-Of-Life.mp4",
-      },
-      {
-        title: "Concept Of Heaven & Hell",
-        url: "./media/life-transforming-messages/Concept-Of-Heaven-&-Hell.mp4",
-      },
-      {
-        title: "Enlightenment Day Special",
-        url: "./media/life-transforming-messages/Enlightenment-Day-Special.mp4",
-      },
-      {
-        title: "Ultimate liberation",
-        url: "./media/life-transforming-messages/Ultimate-liberation.mp4",
-      },
-      {
-        title: "The Only Thing Sadhguru Wants to Tell You",
-        url: "./media/life-transforming-messages/The-Only-Thing-Sadhguru-Wants-to-Tell-You.mp4",
-      },
-      {
-        title: "Jeevan Ko Bachakar Nhi Rakha Ja Skta",
-        url: "./media/life-transforming-messages/Jeevan-ko-Bachakar-nhi-rakha-ja-skta.mp4",
-      },
-      {
-        title: "The Only Thing That Matters in Life",
-        url: "./media/life-transforming-messages/The-Only-Thing-That-Matters-in-Life.mp4",
+        url: "./media/inspirational-shorts/Workout-Pushups.mp4",
       },
       {
         title: "Suryanamaskar",
-        url: "./media/life-transforming-messages/Suryanamaskar.mp4",
+        url: "./media/inspirational-shorts/Suryanamaskar.mp4",
       },
     ],
   },
+  {
+    name: "Inspirational Short Sadguru",
+    tracks: [
+      {
+        title: "Remind Yourself This One Thing Every Hour",
+        url: "./media/inspirational-shorts-shadguru/Remind-Yourself-This-One-Thing-Every-Hour.mp4",
+      },
+      {
+        title: "Preparing to receive Sadhguru's grace",
+        url: "./media/inspirational-shorts-shadguru/Preparing-to-receive-Sadhguru's-grace.mp4",
+      },
+      {
+        title: "Make Your Life Into An Offering",
+        url: "./media/inspirational-shorts-shadguru/Make-Your-Life-Into-An-Offering.mp4",
+      },
+      {
+        title: "The Power of “Aum Namah Shivaya”",
+        url: "./media/inspirational-shorts-shadguru/The-Power-of-“Aum-Namah-Shivaya”.mp4",
+      },
+      {
+        title: "Universe will Bless You",
+        url: "./media/inspirational-shorts-shadguru/Universe-will-Bless-You.mp4",
+      },
+      {
+        title: "A Guru’s Extreme Lesson",
+        url: "./media/inspirational-shorts-shadguru/A-Guru’s-Extreme-Lesson.mp4",
+      },
+      {
+        title: "Do This Before You Take a Dip",
+        url: "./media/inspirational-shorts-shadguru/Do-This-Before-You-Take-a-Dip.mp4",
+      },
+      {
+        title: "Learn to Sit Like This with Eyes Closed",
+        url: "./media/inspirational-shorts-shadguru/Powerful-Pratyahara-Yoga!-Learn-to-Sit-Like-This-with-Eyes-Closed.mp4",
+      },
+      {
+        title: "Follow Your Dreams Or Obey Your Parents Wishes",
+        url: "./media/inspirational-shorts-shadguru/Follow-Your-Dreams-Or-Obey-Your-Parents-Wishes.mp4",
+      },
+      {
+        title: "How To Know The Value Of Life",
+        url: "./media/inspirational-shorts-shadguru/How-To-Know-The-Value-Of-Life.mp4",
+      },
+      {
+        title: "Concept Of Heaven & Hell",
+        url: "./media/inspirational-shorts-shadguru/Concept-Of-Heaven-&-Hell.mp4",
+      },
+      {
+        title: "Enlightenment Day Special",
+        url: "./media/inspirational-shorts-shadguru/Enlightenment-Day-Special.mp4",
+      },
+      {
+        title: "Ultimate liberation",
+        url: "./media/inspirational-shorts-shadguru/Ultimate-liberation.mp4",
+      },
+      {
+        title: "The Only Thing Sadhguru Wants to Tell You",
+        url: "./media/inspirational-shorts-shadguru/The-Only-Thing-Sadhguru-Wants-to-Tell-You.mp4",
+      },
+      {
+        title: "Jeevan Ko Bachakar Nhi Rakha Ja Skta",
+        url: "./media/inspirational-shorts-shadguru/Jeevan-ko-Bachakar-nhi-rakha-ja-skta.mp4",
+      },
+      {
+        title: "The Only Thing That Matters in Life",
+        url: "./media/inspirational-shorts-shadguru/The-Only-Thing-That-Matters-in-Life.mp4",
+      },
+    ],
+  },
+  
 ];
